@@ -1,3 +1,9 @@
 # one expresstion perline
 
 .DS_Store
+
+#this is a pattern. any file that ends in .log will be excluded 
+*.log 
+
+# ignores everything in a log directory
+log/
